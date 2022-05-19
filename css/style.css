@@ -1,0 +1,153 @@
+.principal-header{
+    text-align: center;
+    background-color: #00E88F;
+    color: #000;
+    padding: 0.3em;
+    margin: 0px;
+}
+section{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Macondo', cursive;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.principal-section{
+    background-color: #333;
+    padding: 1em;
+}
+input, aSenha{
+    
+    padding: 0.5em;
+}
+
+.form-login{
+    border: 1px solid #000;
+    background-color: #00E88F;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+}
+form a{
+    color: #f44336;
+    text-decoration: none;
+}
+.boasVindas a{
+    font-style: italic;
+    font-size: 1.3em;
+
+}
+.boasVindas{
+    background-color: #FFF;
+}
+.quadro a{
+    font-size: 1.5em;
+}
+.footer{
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    text-align: center;
+    background-color: #00E88F;
+    clear: both;
+    padding: 0.5em;
+    
+}
+.btn-primary{
+    background-color: #00E88F;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+    
+}
+img-icon{
+    float: left;
+}
+.bemVindo{
+    font-style: italic;
+}
+.quadro{
+/*    border-radius: 1em;*/
+    padding: 1em;
+    border: 1px solid #000;
+    text-align: left;
+    background-color: #222;
+    color: #fff;
+    font-size: 1em;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.cardTarefa{
+    padding: 1em;
+    clear: both;
+    background-color: #00E88F;
+    color: #000;
+    border-radius: 1em;
+    margin-bottom: 1px;
+    
+}
+.cardTarefa a{
+    text-decoration: none;
+}
+.tituloTarefas{
+    text-align: center;
+}
+.btn-editar{
+    margin: 1px;
+    float: right;
+}
+.btn-Add{
+    float: right;
+}
+.btn-ver{
+    float: right;
+    margin: 1px;
+}
+.btn-excluir{
+    float: right; margin: 1px;
+}
+.aConta{
+    color: #3f51b5;
+}
+#modalExcluir{
+    color: red;
+}
+.modal{
+    background-color: #00E88F;
+    opacity: 0.97;
+}
+
+.container-principal{
+    background-color: #333;
+}
+li a{
+    text-decoration: none;
+    color: #FFF;
+}
+li a:hover{
+    color: beige;
+}
+li{
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+    clear: both;
+    display: inline-block;
+    background-color: #333;
+    border-radius: 0.5em;  
+}
+.navbar{
+    
+}
+.add-tarefas{
+    padding: 1.5em;
+}
+.tarefa{
+    color: #fff;
+    font-family: casual;
+}
