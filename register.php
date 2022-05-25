@@ -66,7 +66,7 @@
                             
                             <br>
 <!--                            <a class="aSenha" href="home.html">Esqueci a senha</a>-->
-                            <br><a class="aConta" href="index.html">Já possuo conta, ir para login.</a>
+                            <br><a class="aConta" href="index.php">Já possuo conta, ir para login.</a>
                             
                         </form>
                     </div>

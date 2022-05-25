@@ -61,8 +61,8 @@
                             <br><input type="submit" class="btn btn-success" value="Fazer login"/>
                             
                             <br>
-                            <br><a class="aSenha" href="recover.html">Recuperar senha</a>
-                            <a class="aConta" href="register.html">Criar conta</a>
+                            <br><a class="aSenha" href="recover.php">Recuperar senha</a>
+                            <a class="aConta" href="register.php">Criar conta</a>
                             
                         </form>
                     </div>

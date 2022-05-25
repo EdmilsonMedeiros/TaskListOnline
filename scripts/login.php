@@ -12,10 +12,11 @@ if( $_email != "" && $_senha != "" ){
     //Valida existência do usuário
     if(mysqli_num_rows(mysqli_query($con, $query)) != 0){
         echo "LOGIN OK";
-        header("Location: ../home.html");
+        header("Location: ../home.php");
         exit;
     }else{
         echo "Invalid User or password!";
+        header("Location: ../");
         exit;
     }
 }

@@ -14,13 +14,13 @@ if($nome != "" &&
     $query = "INSERT INTO users(nome, email, dataNascimento, senha) VALUES('$nome', '$email', '$dataNascimento', '$senha')";
     if(mysqli_query($con, $query)){
         echo "Redirecionando...";
-        header("Location: ../home.html");
+        header("Location: ../home.php");
     }else{
         echo "Erro no bloco da query";
     }
     
 }else{
-    header("Location: ../index.html");
+    header("Location: ../");
     exit;
 }
 
