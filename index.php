@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if(isset($_SESSION['email'])){
+  echo "Acesso negado";
+  header("Location: home.php");
+};
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
