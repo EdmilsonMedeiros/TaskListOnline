@@ -78,7 +78,7 @@
             </div>
         
         <footer class="footer">
-            Gerenciador de tarefas
+        Task List online
         </footer>
             
         </div>

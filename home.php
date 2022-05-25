@@ -101,7 +101,7 @@
                     
                     <div class="navbar">
                         <ul>
-                            <img src="img/icone.png" class="img-fluid img-icon"/>
+                            <img src="img/icone.png" class="img-fluid img-icon"/> 
                             <li><a href="">Alterar dados</a></li>
                             <li><a href="">Sobre</a></li>
                             <li><a href="">Ajuda</a></li>
@@ -221,7 +221,7 @@
 
         
         <footer class="footer">
-            Gerenciador de tarefas
+        Task List online
             
 
             
