@@ -1,4 +1,5 @@
 <?php
+
 require_once('connect.php');
 
 $nome           = $_POST['nome'];
@@ -13,6 +14,7 @@ if($nome != "" &&
     
     $query = "INSERT INTO users(nome, email, dataNascimento, senha) VALUES('$nome', '$email', '$dataNascimento', '$senha')";
     if(mysqli_query($con, $query)){
+        echo "Redirecionando...";
         header("Location: ../home.html");
     }else{
         echo "Erro no bloco da query";
