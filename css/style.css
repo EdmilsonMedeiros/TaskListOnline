@@ -145,4 +145,7 @@ li, .btn{
     color: #fff;
     font-family: consolas;
 }
+.btn{
+    border-radius: 0em;
+}
 
