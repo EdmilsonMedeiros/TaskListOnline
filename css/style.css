@@ -84,7 +84,7 @@ img-icon{
     clear: both;
     background-color: #00E88F;
     color: #000;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     margin-bottom: 1px;
     
 }
@@ -143,8 +143,6 @@ li, .btn{
 }
 .tarefa{
     color: #fff;
-    font-family: casual;
+    font-family: consolas;
 }
-.btn-dropdown-options{
-    
-}
+
