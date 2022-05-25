@@ -18,7 +18,7 @@ if( $_email != "" && $_senha != "" ){
         header("Location: ../home.php");
         exit;
     }else{
-        echo "Invalid User or password!";
+        $_SESSION['erroLogin'] = "Usuário ou senha incorreto, tente novamente!";
         header("Location: ../");
         exit;
     }
