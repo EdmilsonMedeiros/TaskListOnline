@@ -59,7 +59,12 @@ if(isset($_SESSION['email'])){
                     <div class="form-login justify-content-md-center offset-lg-4 offset-sm-3 offset-md-3 offset-1 col-lg-4 col-sm-6 col-md-6 col-10">
                         <form action="scripts/register.php" method="POST">
                             <h4>Por favor preencha todos os campos</h4>
-                            
+                            <b style="color:red;"><?php 
+                            if(isset($_SESSION['cadastrado'])){
+                                echo $_SESSION['cadastrado'];
+                            }
+                            unset($_SESSION['cadastrado']);
+                            ?></b>
                             <br><input type="name" class="form form-control" name="nome" id="nome" placeholder="Digite qui o seu nome:" required />
                             
                             <label for="dataNascimento">Data de nascimento</label>
