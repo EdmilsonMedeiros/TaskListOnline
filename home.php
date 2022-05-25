@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!(isset($_SESSION['email']))){
+  echo "Acesso negado";
+  header("Location: index.php");
+};
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -105,7 +114,7 @@
                             <li><a href="">Alterar dados</a></li>
                             <li><a href="">Sobre</a></li>
                             <li><a href="">Ajuda</a></li>
-                            <li><a href="" id="btn-sair">SAIR</a></li>
+                            <li><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
                             
                         </ul>
                     </div>
