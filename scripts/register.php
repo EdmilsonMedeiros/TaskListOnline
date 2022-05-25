@@ -1,5 +1,4 @@
 <?php
-
 require_once('connect.php');
 
 $nome           = $_POST['nome'];
