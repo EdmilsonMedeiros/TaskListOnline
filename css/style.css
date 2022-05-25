@@ -25,7 +25,7 @@ input, aSenha{
     background-color: #00E88F;
     padding: 1em;
     text-align: center;
-    border-radius: 1em;
+    /* border-radius: 1em; */
 }
 form a{
     color: #f44336;
