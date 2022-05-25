@@ -74,7 +74,7 @@
             </div>
         
         <footer class="footer">
-        Task List online
+        Task List Online
         </footer>
             
         </div>

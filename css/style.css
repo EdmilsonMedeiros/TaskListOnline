@@ -1,9 +1,6 @@
 .principal-header{
-    text-align: center;
     background-color: #00E88F;
-    color: #000;
-    padding: 0.3em;
-    margin: 0px;
+    color: #000; 
 }
 section{
     margin: 0px;
@@ -127,27 +124,27 @@ img-icon{
 }
 li a{
     text-decoration: none;
-    color: #FFF;
+    color: #333;
+    padding: 1em;
 }
-li a:hover{
+li, .btn{
+    padding: 0.5em;
+}
+/* li a:hover{
     color: beige;
-}
-li{
+} */
+/* li{
     list-style: none;
     padding: 0.5em;
-    margin: 0;
-    clear: both;
-    display: inline-block;
-    background-color: #333;
-    border-radius: 0.5em;  
-}
-.navbar{
-    
-}
+    background-color: #333;  
+} */
 .add-tarefas{
     padding: 1.5em;
 }
 .tarefa{
     color: #fff;
     font-family: casual;
+}
+.btn-dropdown-options{
+    
 }

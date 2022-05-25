@@ -21,6 +21,8 @@ if(!(isset($_SESSION['email']))){
         <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.css"/>
         <!--Style-->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!--JQuery-->
+        <script src="js/jquery-3.6.0.min.js"></script>
         
     </head>
     
@@ -106,18 +108,33 @@ if(!(isset($_SESSION['email']))){
         
         <div class="principal-header">
             <header>
+            
+
+            <!--Dropdown-->
+            
+              <div class="btn-group">
+              
+                <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/icone.png" class="img-fluid img-icon"/> 
+                Task List Online
+                </button>
+
+                <ul class="dropdown-menu">
+                
+                  <li><a href="">Alterar dados</a></li>
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="">Ajuda</a></li>
+                  <!-- <li></li> -->
+                  <li><hr class="dropdown-divider"><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </div>
+            
+            <!--Dropdown-->
+
                 <div class="">
                     
-                    <div class="navbar">
-                        <ul>
-                            <img src="img/icone.png" class="img-fluid img-icon"/> 
-                            <li><a href="">Alterar dados</a></li>
-                            <li><a href="">Sobre</a></li>
-                            <li><a href="">Ajuda</a></li>
-                            <li><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
-                            
-                        </ul>
-                    </div>
+
                     
                 </div>
             </header>
@@ -230,13 +247,17 @@ if(!(isset($_SESSION['email']))){
 
         
         <footer class="footer">
-        Task List online
+        Task List Online
             
 
             
         </footer>
             
         </div>
+
+
         <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+
     </body>
 </html>
