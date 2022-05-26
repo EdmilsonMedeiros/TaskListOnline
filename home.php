@@ -23,12 +23,12 @@ if(!(isset($_SESSION['email']))){
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <!--JQuery-->
         <script src="js/jquery-3.6.0.min.js"></script>
-        
+
     </head>
-    
+
     <body>
         <!--Modal: -->
-            
+
 <div class="modal" tabindex="-1" id="modalVer">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -101,26 +101,26 @@ if(!(isset($_SESSION['email']))){
   </div>
 </div>
 <!---->
-        
+
         <!--Modal: -->
-        
+
         <div class="container-fluid">
-        
+
         <div class="principal-header">
             <header>
-            
+
 
             <!--Dropdown-->
-            
+
               <div class="btn-group">
-              
+
                 <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="img/icone.png" class="img-fluid img-icon"/> 
+                <img src="img/icone.png" class="img-fluid img-icon"/>
                 Task List Online
                 </button>
 
                 <ul class="dropdown-menu">
-                
+
                   <li><a href="">Alterar dados</a></li>
                   <li><a href="">Sobre</a></li>
                   <li><a href="">Ajuda</a></li>
@@ -129,44 +129,44 @@ if(!(isset($_SESSION['email']))){
                   <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
               </div>
-            
+
             <!--Dropdown-->
 
                 <div class="">
-                    
 
-                    
+
+
                 </div>
             </header>
         </div>
-        
+
         <div class="container principal-section boasVindas">
             <section>
                 <div class="row">
 
-                    
+
 <!--                    <a>Bem vindo ao seu gestor de tarefas</a>-->
-                    
+
 
                 </div>
             </section>
         </div>
-            
-            
+
+
         <div class="container-fluid quadro">
 
             <div class="row">
                 <div class="offset-1 col-10">
-                    
+
                     <div class="tituloTarefas">
                         <a>Bem vindo! Estas são suas tarefas da semana.</a>
                     </div>
-                    
+
                                             <div class="cardTarefa">
                             <a href="" data-bs-toggle="modal" data-bs-target="#modalVer">99/99/9999 - Segunda-feira</a><br>
                             <h5 class="tarefa">Task Title</h5>
                             <p class="tarefa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                            
+
                             <button type="submit" class="btn btn-success btn-excluir" value="" data-bs-toggle="modal" data-bs-target="#modalExcluir">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -183,17 +183,17 @@ if(!(isset($_SESSION['email']))){
                                 </svg>
 
                             </button>
-                            
+
                             <h5>Status: Cumprida</h5>
-                            
+
                         </div>
 
-                    
+
                         <div class="cardTarefa">
                             <a href="" data-bs-toggle="modal" data-bs-target="#modalVer">99/99/9999 - Segunda-feira</a><br>
                             <h5 class="tarefa">Task Title</h5>
                             <p class="tarefa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                            
+
                             <button type="submit" class="btn btn-success btn-excluir" value="" data-bs-toggle="modal" data-bs-target="#modalExcluir">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -210,20 +210,20 @@ if(!(isset($_SESSION['email']))){
                                 </svg>
 
                             </button>
-                            
+
                             <h5>Status: Cumprida</h5>
-                            
+
                         </div>
-                    
+
                     <br>
-                    
+
                 </div>
-            </div>    
+            </div>
         </div>
-            
-            
-            
-            
+
+
+
+
             <div class="container-fluid add-tarefas">
                 <div class="container">
                     <div class="row">
@@ -237,22 +237,22 @@ if(!(isset($_SESSION['email']))){
                             </svg>
 
                             </button>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
             <br><br>
-            
 
-        
-        <footer class="footer">
+
+
+        <!-- <footer class="footer">
         Task List Online
-            
 
-            
-        </footer>
-            
+
+
+        </footer> -->
+
         </div>
 
 
