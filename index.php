@@ -91,9 +91,12 @@ if(isset($_SESSION['email'])){
 
             </div>
 
-        <!-- <footer class="footer">
-        Task List Online
-        </footer> -->
+            <footer class="footer">
+            <a href="mailto:tesklist@tasklist.com.br">tesklist@tasklist.com.br</a>
+
+
+
+            </footer>
 
         </div>
 

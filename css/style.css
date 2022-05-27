@@ -1,6 +1,8 @@
 .principal-header{
     background-color: #00E88F;
     color: #000;
+    position: fixed;  top: 0; left: 0; right: 0;
+    clear: both;
 }
 section{
     margin: 0px;
@@ -10,22 +12,20 @@ body{
     font-family: 'Macondo', cursive;
     margin: 0px;
     padding: 0px;
-
 }
 .principal-section{
+    margin-top: 1em;
     padding: 1em;
 }
 input, aSenha{
 
     padding: 0.5em;
 }
-
 .form-login{
     border: 1px solid #000;
     background-color: #00E88F;
     padding: 1em;
     text-align: center;
-    /* border-radius: 1em; */
 }
 form a{
     color: #f44336;
@@ -34,22 +34,12 @@ form a{
 .boasVindas a{
     font-style: italic;
     font-size: 1.3em;
-
 }
 .boasVindas{
     background-color: #FFF;
 }
 .quadro a{
-    font-size: 1.5em;
-}
-.footer{
-    /* position: fixed; */
-    /* bottom: 0; left: 0; right: 0; */
-    /* text-align: center;
-    background-color: #00E88F; */
-    /* clear: both; */
-    /* padding: 0.5em; */
-
+    font-size: 1em;
 }
 .btn-primary{
     background-color: #00E88F;
@@ -58,28 +48,21 @@ form a{
     margin: 0px;
     padding: 0px;
     background-color: #FFF;
-
 }
 img-icon{
     float: left;
-}
-body{
-  
 }
 .bemVindo{
     font-style: italic;
 }
 .quadro{
-/*    border-radius: 1em;*/
     padding: 1em;
     border: 1px solid #000;
     text-align: left;
     background-color: #000;
     color: #fff;
     font-size: 1em;
-    /* height: 400px; */
-    /* /     */
-
+    clear: both;
 }
 .cardTarefa{
     padding: 1em;
@@ -88,7 +71,6 @@ body{
     color: #000;
     /* border-radius: 1em; */
     margin-bottom: 1px;
-
 }
 .cardTarefa a{
     text-decoration: none;
@@ -120,7 +102,6 @@ body{
     background-color: #00E88F;
     opacity: 0.97;
 }
-
 .container-principal{
     background-color: #000;
 }
@@ -132,14 +113,6 @@ li a{
 li, .btn{
     padding: 0.5em;
 }
-/* li a:hover{
-    color: beige;
-} */
-/* li{
-    list-style: none;
-    padding: 0.5em;
-    background-color: #333;
-} */
 .add-tarefas{
     padding: 1.5em;
 }
@@ -149,4 +122,17 @@ li, .btn{
 }
 .btn{
     border-radius: 0em;
+}
+.modal-content{
+    border-radius: 0em;
+}
+footer{
+  padding: 1em;
+  margin-top: 0px;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: #000;
+  font-family: consolas;
 }
