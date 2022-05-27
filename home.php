@@ -12,7 +12,7 @@ if(!(isset($_SESSION['email']))){
     <head>
         <title>Home</title>
         <meta charset="UTF-8"/>
-        <link rel="icon" href="img/icone.png" />  
+        <link rel="icon" href="img/icone.png"/>  
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <!--Fonts-->
