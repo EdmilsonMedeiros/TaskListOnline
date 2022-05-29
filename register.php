@@ -13,7 +13,8 @@ if(isset($_SESSION['email'])){
     <head>
         <title>Cadastro</title>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width-device-width, inicial-scale=1"/>
+        <link rel="icon" href="img/icone.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,8 @@ if(isset($_SESSION['email'])){
         <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.css"/>
         <!--Style-->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!--JQuery-->
+        <script src="js/jquery-3.6.0.min.js"></script>
 
     </head>
 
@@ -69,18 +72,17 @@ if(isset($_SESSION['email'])){
 
                             <label for="dataNascimento">Data de nascimento</label>
 
-                            <br><input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="12/05/2022" required />
+                            <br><input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="" value="1993-12-31" required />
 
                             <br><input type="email" class="form form-control" name="email" id="email" placeholder="Digite qui seu e-mail:" required />
 
                             <br><input type="password" class="form form-control" name="senha" id="senha" placeholder="Crie sua senha" required />
 
-                            <br><input type="submit" class="btn btn-success" value="Finalizar cadastro"/>
+                            <br><input type="submit" class="btn btn-success" value="Finalizar Cadastro"/>
 
                             <input type="reset" class="btn btn-danger" value="Limpar formulário"/>
 
                             <br>
-<!--                            <a class="aSenha" href="home.html">Esqueci a senha</a>-->
                             <br><a class="aConta" href="index.php">Já possuo conta, ir para login.</a>
 
                         </form>
@@ -102,5 +104,7 @@ if(isset($_SESSION['email'])){
         </div>
 
         <script src="js/index.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>

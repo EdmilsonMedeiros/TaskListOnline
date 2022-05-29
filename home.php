@@ -122,7 +122,7 @@ if(!(isset($_SESSION['email']))){
 
                 <ul class="dropdown-menu">
 
-                  <li><a href="">Alterar dados</a></li>
+                  <li><a href="user.php">Alterar dados</a></li>
                   <li><a href="">Sobre</a></li>
                   <li><a href="">Ajuda</a></li>
                   <!-- <li></li> -->
