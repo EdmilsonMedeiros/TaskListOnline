@@ -24,7 +24,15 @@ if(isset($_SESSION['email'])){
         <script src="js/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="principal-header ">
+            <header>
+                <div class="navbar">
+                    <img src="img/icone.png" class="img-fluid img-icon"/>
+                </div>
+            </header>
+        </div>
+        <div class="container-fluid container-principal">
         <div class="container-fluid container-principal">
         <div class="container principal-section form">
             <section>
