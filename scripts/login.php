@@ -4,7 +4,6 @@ require_once("connect.php");
 //Captura dados do form
 $_email = $_POST['email'];
 $_senha = $_POST['senha'];
-
 //Valida os campos do form
 if( $_email != "" && $_senha != "" ){
     //Query para consulta
@@ -13,7 +12,7 @@ if( $_email != "" && $_senha != "" ){
     if(mysqli_num_rows(mysqli_query($con, $query)) != 0){
         echo "LOGIN OK";
         //Cria sessão e criptografa email
-        $_SESSION['email'] = md5($_email);
+        $_SESSION['email'] = $_email;
         //redireciona
         header("Location: ../home.php");
         exit;

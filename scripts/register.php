@@ -29,7 +29,7 @@ if(mysqli_num_rows($_result) > 0){
         //Verifica a execução da query
         if(mysqli_query($con, $query)){
             //cria sessão
-            $_SESSION['email'] = md5($_email);
+            $_SESSION['email'] = $_email;
             echo "Redirecionando...";
             header("Location: ../home.php");
         }else{

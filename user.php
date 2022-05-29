@@ -50,10 +50,10 @@ if(!(isset($_SESSION['email']))){
             <section>
                 <div class="row">
                     <div class="form-login justify-content-md-center offset-lg-4 offset-sm-3 offset-md-3 offset-1 col-lg-4 col-sm-6 col-md-6 col-10">
-                        <form action="scripts/login.php" method="post">
+                        <form action="scripts/user.php" method="post">
                             <h4>Atualização cadastral</h4>
-                            <input type="text" class="form form-control" name="nome" id="nome" placeholder="Nome:" required />
-                            <input type="email" class="form form-control" name="email" id="email" placeholder="E-mail:" required />
+                            <input type="text" class="form form-control" name="nome" id="nome" placeholder="Nome:" value="<?php ?>" required />
+                            <input type="email" class="form form-control" name="email" id="email" placeholder="E-mail:" value="<?php  require_once("scripts/user.php"); retornaEmail();  ?>" required />
                             <input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="Data Nascimento:" value="" required />
                         </br>
                             <input type="submit" class="btn btn-success" value="Salvar alterações"/>
