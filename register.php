@@ -1,13 +1,10 @@
 <?php
 session_start();
-
 if(isset($_SESSION['email'])){
   echo "Acesso negado";
   header("Location: home.php");
 };
-
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -25,13 +22,9 @@ if(isset($_SESSION['email'])){
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <!--JQuery-->
         <script src="js/jquery-3.6.0.min.js"></script>
-
     </head>
-
     <body>
-
         <div class="container-fluid">
-
         <div class="principal-header ">
             <header>
                 <div class="navbar">
@@ -41,21 +34,8 @@ if(isset($_SESSION['email'])){
             </header>
         </div>
 
-        <div class="container principal-section boasVindas">
-            <section>
-                <div class="row">
-
-
-
-
-                </div>
-            </section>
-        </div>
-
-
-            <div class="container-fluid container-principal">
-
-                        <div class="container principal-section form">
+        <div class="container-fluid container-principal">
+            <div class="container principal-section form">
             <section>
                 <div class="row">
 
@@ -69,40 +49,24 @@ if(isset($_SESSION['email'])){
                             unset($_SESSION['cadastrado']);
                             ?></b>
                             <br><input type="name" class="form form-control" name="nome" id="nome" placeholder="Digite qui o seu nome:" required />
-
                             <label for="dataNascimento">Data de nascimento</label>
-
                             <br><input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="" value="1993-12-31" required />
-
                             <br><input type="email" class="form form-control" name="email" id="email" placeholder="Digite qui seu e-mail:" required />
-
                             <br><input type="password" class="form form-control" name="senha" id="senha" placeholder="Crie sua senha" required />
-
                             <br><input type="submit" class="btn btn-success" value="Finalizar Cadastro"/>
-
                             <input type="reset" class="btn btn-danger" value="Limpar formulário"/>
-
                             <br>
                             <br><a class="aConta" href="index.php">Já possuo conta, ir para login.</a>
-
                         </form>
                     </div>
-
                 </div>
             </section>
         </div>
-
             </div>
-
             <footer class="footer">
             <a href="mailto:tesklist@tasklist.com.br">tesklist@tasklist.com.br</a>
-
-
-
             </footer>
-
         </div>
-
         <script src="js/index.js"></script>
         <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
         <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>

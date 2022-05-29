@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if(!(isset($_SESSION['email']))){
   header("Location: index.php");
 };
@@ -27,12 +26,8 @@ if(!(isset($_SESSION['email']))){
 	<div class="container-fluid container-principal">
         <div class="principal-header">
             <header>
-
-
             <!--Dropdown-->
-
               <div class="btn-group">
-
                 <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="img/icone.png" class="img-fluid img-icon"/>
                 Task List Online
@@ -46,40 +41,29 @@ if(!(isset($_SESSION['email']))){
                   <li><hr class="dropdown-divider"><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
-
             <!--Dropdown-->
-
                 <div class="">
-
-
                 </div>
             </header>
         </div>
-
         <div class="container principal-section form">
             <section>
                 <div class="row">
-
                     <div class="form-login justify-content-md-center offset-lg-4 offset-sm-3 offset-md-3 offset-1 col-lg-4 col-sm-6 col-md-6 col-10">
                         <form action="scripts/login.php" method="post">
-                            <h4></h4>
-
+                            <h4>Atualização cadastral</h4>
                             <input type="text" class="form form-control" name="nome" id="nome" placeholder="Nome:" required />
                             <input type="email" class="form form-control" name="email" id="email" placeholder="E-mail:" required />
                             <input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="Data Nascimento:" value="" required />
                         </br>
                             <input type="submit" class="btn btn-success" value="Salvar alterações"/>
                             <input type="reset" class="btn btn-danger" value="Limpar formulário"/>
-
                             <br>
-
                         </form>
                     </div>
-
                 </div>
             </section>
         </div>
-
 </div>
         <script src="js/index.js"></script>
         <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
