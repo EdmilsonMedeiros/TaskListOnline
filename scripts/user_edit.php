@@ -16,4 +16,6 @@ if (mysqli_query($con, $_query_insert) or die("Erro no insert")) {
 	$_SESSION['no-success'] = "Erro na atualização, verifique os dados e tente noovamente!";
 	header("Location: ../user.php");
 }
+
+//incluir validação para evitar conflito de email.
 ?>
