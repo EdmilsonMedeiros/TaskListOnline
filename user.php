@@ -63,6 +63,9 @@ if(!(isset($_SESSION['email']))){
                         	}
                         	if (isset($_SESSION['no-success'])) {
                         		echo "<p style='color: red'>".$_SESSION['no-success']."</p>";
+                        	}
+                        	if (isset($_SESSION['no-success-email'])) {
+                        		echo "<p style='color: red'>".$_SESSION['no-success-email']."</p>";
                         	} 
                         	unset($_SESSION['no-success']);
                         	unset($_SESSION['success']);
