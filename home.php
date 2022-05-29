@@ -107,8 +107,8 @@ if(!(isset($_SESSION['email']))){
                 </button>
                 <ul class="dropdown-menu">
                   <li><a href="user.php">Alterar dados</a></li>
-                  <li><a href="">Sobre</a></li>
-                  <li><a href="">Ajuda</a></li>
+                  <li><a href="about.php">Sobre</a></li>
+                  <li><a href="#email">Ajuda</a></li>
                   <!-- <li></li> -->
                   <li><hr class="dropdown-divider"><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
@@ -222,7 +222,7 @@ if(!(isset($_SESSION['email']))){
         </div>
           <br><br>
         <footer class="footer">
-        <a href="mailto:tesklist@tasklist.com.br">tesklist@tasklist.com.br</a>
+        <a id="email" href="mailto:tesklist@tasklist.com.br">tesklist@tasklist.com.br</a>
         </footer>
         </div>
         <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>

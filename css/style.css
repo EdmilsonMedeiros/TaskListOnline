@@ -141,3 +141,19 @@ footer a{
 .principal-section{
     margin-top: 4em;
 }
+.principal-section-about{
+    background-color: #00E88F;
+    padding: 1em;
+    color: #fff;
+}
+.section-about{
+    margin-top: 5em;
+    margin-bottom: 1em;
+    background-color: #00E88F;
+    padding: 1em;
+    color: #41464b; 
+}
+.h1about{
+    text-align: center;
+    color: #fff
+}
