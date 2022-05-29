@@ -1,17 +1,14 @@
 <?php
 session_start();
 require_once('connect.php');
-
 //Pega os valores no form
 $nome           = $_POST['nome'];
 $email          = $_POST['email'];
 $dataNascimento = $_POST['dataNascimento'];
 $senha          = $_POST['senha'];
-
 //Query para consulta de existência do e-mail no banco de dados
 $_query_valida_email = "SELECT * FROM users WHERE email = '$email'";
 $_result = mysqli_query($con, $_query_valida_email);
-
 //Verifica se a consulta na base retornou resultados
 if(mysqli_num_rows($_result) > 0){
     //Cria um session para mensagem de e-mail cadastrado
@@ -41,6 +38,4 @@ if(mysqli_num_rows($_result) > 0){
         exit;
     }
 }
-
-
 ?>

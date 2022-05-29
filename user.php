@@ -50,16 +50,28 @@ if(!(isset($_SESSION['email']))){
             <section>
                 <div class="row">
                     <div class="form-login justify-content-md-center offset-lg-4 offset-sm-3 offset-md-3 offset-1 col-lg-4 col-sm-6 col-md-6 col-10">
-                        <form action="scripts/user.php" method="post">
+                        <form action="scripts/user_edit.php" method="POST">
                             <h4>Atualização cadastral</h4>
                             <input type="text" class="form form-control" name="nome" id="nome" placeholder="Nome:" value="<?php require("scripts/user.php"); retornaNome(); ?>" required />
                             <input type="email" class="form form-control" name="email" id="email" placeholder="E-mail:" value="<?php retornaEmail(); ?>" required />
                             <input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="" value="<?php retornaDataNascimento(); ?>" required />
                         </br>
+                        <b>
+                        	<?php
+                        	if (isset($_SESSION['success'])) {
+                        		echo "<p style='color: #b4e9b4; background-color:#000; padding:0.3em;'>".$_SESSION['success']."</p>";
+                        	}
+                        	if (isset($_SESSION['no-success'])) {
+                        		echo "<p style='color: red'>".$_SESSION['no-success']."</p>";
+                        	} 
+                        	unset($_SESSION['no-success']);
+                        	unset($_SESSION['success']);
+                        	?>
+                    	</b>
                             <input type="submit" class="btn btn-success" value="Salvar alterações"/>
-                            <input type="reset" class="btn btn-danger" value="Limpar formulário"/>
                             <br>
                         </form>
+
                     </div>
                 </div>
             </section>

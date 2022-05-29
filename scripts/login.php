@@ -11,7 +11,7 @@ if( $_email != "" && $_senha != "" ){
     //Valida existência do usuário
     if(mysqli_num_rows(mysqli_query($con, $query)) != 0){
         echo "LOGIN OK";
-        //Cria sessão e criptografa email
+        //Cria sessão
         $_SESSION['email'] = $_email;
         //redireciona
         header("Location: ../home.php");
