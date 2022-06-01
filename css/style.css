@@ -22,7 +22,8 @@ input, aSenha{
     padding: 0.5em;
 }
 .form-login{
-    border: 1px solid #000;
+    margin-bottom: 5em;
+    margin-top: 5em;
     background-color: #00E88F;
     padding: 1em;
     text-align: center;
@@ -107,7 +108,7 @@ img-icon{
     opacity: 0.97;
 }
 .container-principal{
-    background-color: #000;
+    background-color: #e9ecef;
 }
 li a{
     text-decoration: none;
@@ -131,6 +132,7 @@ footer{
   padding: 1em;
   margin-top: 0px;
   text-align: center;
+  background-color: #00e88f;
 }
 footer a{
   text-decoration: none;
@@ -158,4 +160,12 @@ footer a{
 }
 .register-li li{
     list-style: none;
+}
+.principal-section-register{
+    background-color: #FFF;
+}
+.title-index{
+    color: #212529;
+    text-align: center;
+    /*font-family: sans-serif;*/
 }

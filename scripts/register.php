@@ -14,7 +14,7 @@ if(mysqli_num_rows($_result) > 0){
     //Cria um session para mensagem de e-mail cadastrado
     $_SESSION['cadastrado'] = "E-mail já cadastrado!";
     //redireciona
-    header("Location: ../register.php");
+    header("Location: ../index.php#cadastro");
 }else{
     //Valida se os campos contem todos os caracteres para o cadastro
     if($nome != "" && 
@@ -26,15 +26,15 @@ if(mysqli_num_rows($_result) > 0){
         //Verifica a execução da query
         if(mysqli_query($con, $query)){
             //cria sessão
-            $_SESSION['email'] = $_email;
-            echo "Redirecionando...";
+            $_SESSION['email'] = $email;
             header("Location: ../home.php");
         }else{
             echo "Erro no cadastro, tente mais uma vez!";
+            header("Location: ../home.php");
         }
         
     }else{
-        header("Location: ../register.php");
+        header("Location: ../index.php#cadastro");
         exit;
     }
 }
