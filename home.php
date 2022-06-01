@@ -106,6 +106,7 @@ if(!(isset($_SESSION['email']))){
                 Task List Online
                 </button>
                 <ul class="dropdown-menu">
+                  <li><a href="index.php">Início</a></li>
                   <li><a href="user.php">Alterar dados</a></li>
                   <li><a href="about.php">Sobre</a></li>
                   <li><a href="#email">Ajuda</a></li>

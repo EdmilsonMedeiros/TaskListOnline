@@ -34,10 +34,10 @@ if(!(isset($_SESSION['email']))){
                 </button>
 
                 <ul class="dropdown-menu">
-
+                  <li><a href="index.php">Início</a></li>
                   <li><a href="">Alterar dados</a></li>
-                  <li><a href="">Sobre</a></li>
-                  <li><a href="">Ajuda</a></li>
+                  <li><a href="about.php">Sobre</a></li>
+                  <li><a href="#email">Ajuda</a></li>
                   <li><hr class="dropdown-divider"><a href="scripts/logout.php" id="btn-sair">SAIR</a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                 </ul>

@@ -22,9 +22,11 @@
 
         <div class="principal-header ">
             <header>
-                <div class="navbar">
-                    <img src="img/icone.png" class="img-fluid img-icon"/>
-                </div>
+            	<a href="index.php">
+	                <div class="navbar">
+	                    <img src="img/icone.png" class="img-fluid img-icon"/>
+	                </div>
+            	</a>
             </header>
         </div>
 

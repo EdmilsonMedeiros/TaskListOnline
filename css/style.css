@@ -67,8 +67,7 @@ img-icon{
 }
 .cardTarefa{
     padding: 0.78em;
-
-    background-color: #91b4a7;
+    background-color: #00e88f;
     color: #000;
     margin-bottom: 1px;
 }
@@ -113,7 +112,7 @@ img-icon{
 li a{
     text-decoration: none;
     color: #333;
-    padding: 1em;
+    padding: 0.5em;
 }
 .add-tarefas{
     padding: 1.5em;
@@ -156,4 +155,7 @@ footer a{
 .h1about{
     text-align: center;
     color: #fff
+}
+.register-li li{
+    list-style: none;
 }

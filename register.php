@@ -27,10 +27,19 @@ if(isset($_SESSION['email'])){
         <div class="container-fluid">
         <div class="principal-header ">
             <header>
-                <div class="navbar">
-
-                    <img src="img/icone.png" class="img-fluid img-icon"/>
-                </div>
+            <!--Dropdown-->
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/icone.png" class="img-fluid img-icon"/>
+                Task List Online
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="index.php">Início</a></li>
+                  <li><a href="about.php">Sobre</a></li>
+                  <!-- <li><a href="#email">Ajuda</a></li> -->
+                </ul>
+              </div>
+            <!--Dropdown-->
             </header>
         </div>
 
@@ -52,7 +61,7 @@ if(isset($_SESSION['email'])){
                             <label for="dataNascimento">Data de nascimento</label>
                             <br><input type="date" class="form form-control" name="dataNascimento" id="dataNascimento" placeholder="" value="1993-12-31" required />
                             <br><input type="email" class="form form-control" name="email" id="email" placeholder="Digite qui seu e-mail:" required />
-                            <br><input type="password" class="form form-control" name="senha" id="senha" placeholder="Crie sua senha" required />
+                            <br><input type="password" class="form form-control" name="senha" id="senha" placeholder="Crie sua senha" maxlength="8" required />
                             <br><input type="submit" class="btn btn-success" value="Finalizar Cadastro"/>
                             <input type="reset" class="btn btn-danger" value="Limpar formulário"/>
                             <br>
