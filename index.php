@@ -52,7 +52,6 @@ if(isset($_SESSION['email'])){
                 <div class="row">
                     <div class="form-login justify-content-md-center offset-lg-4 offset-sm-3 offset-md-3 offset-1 col-lg-4 col-sm-6 col-md-6 col-10">
 
-                        <h1></h1>
                         <form action="scripts/login.php" method="post">
                             <h4 id="">Entre com seu email e senha</h4>
                             <b style="color:red;">
