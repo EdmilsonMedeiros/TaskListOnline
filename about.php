@@ -48,7 +48,7 @@
 			</div>
 		</div>
 
-		    <footer class="footer">
+		    <footer class="footer fixed-bottom">
             <a href="mailto:tesklist@tasklist.com.br">tesklist@tasklist.com.br</a>
             </footer>
 
