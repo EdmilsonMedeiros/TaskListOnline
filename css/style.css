@@ -43,7 +43,7 @@ form a{
     padding: 0.1em;
     border: 1px solid #000;
     text-align: left;
-    background-color: #000;
+    background-color: #c6f5d0;
     color: #fff;
     font-size: 1em;
     clear: both;
@@ -177,4 +177,11 @@ footer a{
 .card{
     border-radius: 0rem;
 
+}
+.td-button{
+    float: right;
+}
+.tbody-home{
+    font-family: serif;
+    font-size:large;
 }

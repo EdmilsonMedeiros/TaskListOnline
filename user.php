@@ -32,7 +32,6 @@ if(!(isset($_SESSION['email']))){
                 <img src="img/icone.png" class="img-fluid img-icon"/>
                 Task List Online
                 </button>
-
                 <ul class="dropdown-menu">
                   <li><a href="index.php">Início</a></li>
                   <li><a href="">Alterar dados</a></li>

@@ -20,5 +20,4 @@ if ($_emailSessao != null) {
 }else{
 	header("Location: ../");
 }
-
 ?>
