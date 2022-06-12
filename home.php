@@ -148,17 +148,30 @@ if(!(isset($_SESSION['email']))){
                   </div>
                 </div>
               </div>
+
+<div class="container nav-taferas">
+  <div class="row">
+      <div class="col status navbar justify-content-center">
+        <nav class="nav ">
+          <ul>
+            <li class="status-aberta nav-item"><a class="nav-link" href="">Abertas</a></li>
+            <li class="status-cumprida nav-item"><a class="nav-link" href="">Concluídas</a></li>
+          </ul>
+        </nav>
+    </div>
+  </div>
+</div>
+
 <!--Tarefas-->
 <div class="row">
+
     <div class="col-12">
-
-
 <table class="table">
   <thead>
     <tr>
       
-      <th scope="col">Data</th>
       <th scope="col">Titulo</th>
+      <th scope="col">Data</th>
       <th scope="col">Conteúdo</th>
       <th scope="col"></th>
 

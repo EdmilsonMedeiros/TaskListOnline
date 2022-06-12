@@ -84,22 +84,11 @@ img-icon{
   padding: 0;
   margin: 0;
 }
-.btn-editar{
-
-}
-.btn-Add{
-    
-}
-
 .btn-ver{
     margin: 1px;
 }
 .btn-filtrar{
     float: left;
-}
-
-.btn-excluir{
-    
 }
 .aConta{
     color: #3f51b5;
@@ -172,11 +161,9 @@ footer a{
 .title-index{
     color: #212529;
     text-align: center;
-    /*font-family: sans-serif;*/
 }
 .card{
     border-radius: 0rem;
-
 }
 .td-button{
     float: right;
@@ -184,4 +171,19 @@ footer a{
 .tbody-home{
     font-family: serif;
     font-size:large;
+}
+.status{
+    background-color: #00E88F;
+    color: #000;
+    margin: 0;
+}
+.status a{
+    margin: 0;
+    font-size: large;
+}
+.status li {
+    display: inline-block;
+}
+.status-aberta{
+    background-color: #c6f5d0;
 }
