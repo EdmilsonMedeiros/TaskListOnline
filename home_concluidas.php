@@ -154,8 +154,10 @@ if(!(isset($_SESSION['email']))){
       <div class="col status navbar justify-content-center">
         <nav class="nav ">
           <ul>
-            <li class="status-aberta nav-item"><a class="nav-link" href="">Abertas</a></li>
-            <li class="nav-item"><a class="nav-link" href="home_concluidas.php">Concluídas</a></li>
+
+
+            <li class="nav-item"><a class="nav-link" href="home.php">Abertas</a></li>
+            <li class="status-cumprida nav-item"><a class="nav-link" href="home_concluidas.php">Concluídas</a></li>
           </ul>
         </nav>
     </div>
@@ -179,7 +181,7 @@ if(!(isset($_SESSION['email']))){
   </thead>
   <tbody class="tbody-home">
       <?php 
-        include("scripts/show_task.php");
+        include("scripts/show_task_completed.php");
         while($_dados = mysqli_fetch_array($_querySelectTarefas)){
       ?>
         <tr>
